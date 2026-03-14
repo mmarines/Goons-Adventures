@@ -5,14 +5,17 @@ class Title extends Phaser.Scene {
 
     preload() {
         // load images
-        this.load.image('jetta', 'assets/images/TempJetta.jpg');
-        this.load.image('totw', 'assets/images/TempTOTW.jpg');
+        this.load.image('jetta', 'assets/images/jetta.jpg');
+        this.load.image('totw', 'assets/images/TOTW.jpg');
         this.load.image('cigar', 'assets/images/TempCigar.jpeg');
         this.load.image('dutch', 'assets/images/Dutch.webp');
 
         // load audio
         this.load.audio('click', 'assets/audio/buttonclick.mp3');
-    }
+        this.load.audio('carbg', 'assets/audio/carbg.mp3');
+
+        // load bitmap font
+        this.load.bitmapFont('blackcoffee', 'assets/text/blackcoffee.png', 'assets/text/blackcoffee.xml');    }
     
     create() {
         // temp text

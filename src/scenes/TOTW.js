@@ -31,10 +31,8 @@ class TOTW extends Phaser.Scene {
                 graphics.lineStyle(5, 0x0000ff);
                 graphics.strokeRect(100, 480, 600, 100);
                 this.dialogueBox = graphics;
-                this.dialogueText = this.add.text(400, 530, "You found the temp cigar! We are going to smoke this later...", {
-                    font: "18px Arial",
-                    fill: "white"
-                }).setOrigin(0.5);
+                this.dialogueText = this.add.bitmapText(400, 530, 'blackcoffee', "You found the temp cigar! We are going to smoke this later...", 18).setOrigin(0.5);
+                this.dialogueText.setWordWrapWidth(580);
             }
         });
 
