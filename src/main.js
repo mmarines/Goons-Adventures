@@ -8,8 +8,16 @@
     Graphics Objects
 
     Citations:
-    Button Click SFX: freesoundeffects - https://pixabay.com/sound-effects/film-special-effects-button-click-289742/
-    Car BG Music: DeltaX-Music - https://pixabay.com/music/beats-save-you-rap-instrumental-361444/
+        Audio:
+        Button Click SFX: freesoundeffects - https://pixabay.com/sound-effects/film-special-effects-button-click-289742/
+        Car BG Music: DeltaX-Music - https://pixabay.com/music/beats-save-you-rap-instrumental-361444/
+
+        Bitmap Font:
+        Black Coffee: https://www.dafont.com/black-coffee.font
+
+        Images:
+
+
 */
 
 let config = {

@@ -9,6 +9,8 @@ class Title extends Phaser.Scene {
         this.load.image('totw', 'assets/images/TOTW.jpg');
         this.load.image('cigar', 'assets/images/TempCigar.jpeg');
         this.load.image('dutch', 'assets/images/Dutch.webp');
+        this.load.image('hampter', 'assets/images/hampter.gif');
+        this.load.image('vwlogo', 'assets/images/vwlogo.png');
 
         // load audio
         this.load.audio('click', 'assets/audio/buttonclick.mp3');
